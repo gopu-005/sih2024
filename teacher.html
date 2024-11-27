@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassOfOne</title>
+    <link rel="stylesheet" href="teacher.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bree+Serif&family=Lilita+One&family=Roboto+Slab:wght@100..900&family=Rowdies:wght@300;400;700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<body>
+    <div class="teacher-container">
+        <h1 class="teacher-head">Staff Performance</h1>
+        <div class="teacher-operations">
+            <div class="teacher-details">
+                <h4 class="teacher-content">Name   :  <em>xxxxx</em></h4>
+                <h4 class="teacher-content">Emp Id :  <em>1233334</em></h4>
+            </div>
+            <div class="teacher-details2">
+                <h4 class="teacher-content">Subject   : <input type="text" class="input-details" required> </h4>
+                <h4 class="teacher-content">class :  <input type="text" class="input-details" required></h4>
+                <form action="institution.html" method="get"><button class="btn" >Submit</button></form>
+            </div>
+        </div>
+        <div class="teacher-mainContent">
+            <!-- <div class="speedometer-container">
+                <div class="speedometer">
+                  <div class="circle"></div>
+                  <div class="needle" id="needle"></div>
+                  <div class="score">
+                    <span id="score">0</span>
+                  </div>
+                </div>
+                <div class="slider-container">
+                  <input type="range" id="range" min="0" max="100" value="0">
+                </div>
+            </div>  -->
+
+            <div class="progress-circle">
+                <div class="circle">
+                  <div class="mask full" id="mask-full"></div>
+                  <div class="mask half" id="mask-half">
+                    <div class="fill" id="fill"></div>
+                  </div>
+                  <div class="inside-circle">
+                    <span id="circle-score">0%</span>
+                  </div>
+                </div>
+                <input type="range" id="range" min="0" max="100" value="0">
+                <h1 class="teacher-head">Performance</h1>
+            </div>
+
+            <div class="schedule-container">
+                <table class="schedule-table">
+                  <thead>
+                    <tr>
+                      <th>Time/Day</th>
+                      <th>Monday</th>
+                      <th>Tuesday</th>
+                      <th>Wednesday</th>
+                      <th>Thursday</th>
+                      <th>Friday</th>
+                      <th>Saturday</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Period 1</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Period 2</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Period 3</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>  </td>
+                    </tr>
+                    <tr>
+                      <td>Period 4</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Period 5</td>
+                      <td></td>
+                      <td>  </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Period 6</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>  </td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Period 7</td>
+                      <td>  </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            <div class="schedule-container2">
+                <table class="schedule-table schedule-table2">
+                    <tr>
+                        <td>English</td>
+                        <td>85%</td>
+                    </tr>
+                    <tr>
+                        <td>Math</td>
+                        <td>54%</td>
+                    </tr>
+                    <tr>
+                        <td>Physics</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>Social</td>
+                        <td>44%</td>
+                    </tr>
+            </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
