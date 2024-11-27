@@ -37,7 +37,7 @@
 .box-container{
     width: 27vw;
     height: 65vh;
-    background-color: rgb(234, 239, 241);
+    /* background-color: rgb(234, 239, 241); */
     border-radius: 15px;
     display: flex;
     justify-content: center;
