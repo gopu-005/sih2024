@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("background.png");
+            background-size: cover; /* Ensures the background covers the full page */
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: 'Poppins', sans-serif; /* Professional font */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height */
+            color: #fff; /* Text color for contrast */
+        }
+
+        /* Centered Typewriting Text */
+        h1 {
+            font-size: 2.5rem; /* Adjust size as needed */
+            font-weight: 700; /* Bold text */
+            text-align: center;
+            overflow: hidden;
+            border-right: 0.15em solid white; /* Cursor effect */
+            white-space: nowrap;
+            margin: 0 auto;
+            animation: typing 3.5s steps(40, end), blink-caret 0.5s step-end infinite;
+        }
+
+        /* Typewriting Animation */
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        /* Blinking Cursor Animation */
+        @keyframes blink-caret {
+            from, to {
+                border-color: transparent;
+            }
+            50% {
+                border-color: white;
+            }
+        }
+    </style>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Welcome to Our OneClass Monitoring Project</h1>
+</body>
+</html>
